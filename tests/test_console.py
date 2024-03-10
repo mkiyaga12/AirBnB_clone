@@ -1,9 +1,20 @@
 #!/usr/bin/python3
-
 """This module tests the console program `HBNBCommand`."""
+"""Defines unittests for console.py.
 
-
+Unittest classes:
+    TestHBNBCommand_prompting
+    TestHBNBCommand_help
+    TestHBNBCommand_exit
+    TestHBNBCommand_create
+    TestHBNBCommand_show
+    TestHBNBCommand_all
+    TestHBNBCommand_destroy
+    TestHBNBCommand_update
+"""
 import os
+import sys
+import unittest
 import inspect
 from io import StringIO
 from uuid import UUID as uuid
